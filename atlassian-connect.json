@@ -1,0 +1,703 @@
+{
+  "name": "EG Ultimate Connect App for Confluence x3",
+  "description": "Economy Growth owned ultimate Connect app. The app is used for testing purposes in staging. It aims to be universal in terms of installation locations. After app installation, it should be available in all possible locations of the Atlassian product with 3 distinct touchpoints in every location.",
+  "key": "com.eg-ultimate-connect-app.myapp",
+  "baseUrl": "https://21a084463c1a.ngrok.io",
+  "vendor": {
+      "name": "Atlassian Economy Growth",
+      "url": "https://hello.atlassian.net/wiki/spaces/ECON/pages/1310672589/Economy+Growth+EG"
+  },
+  "authentication": {
+      "type": "none"
+  },
+  "scopes": [
+    "read",
+    "write"
+  ],
+  "apiVersion": 1,
+  "modules": {
+      "generalPages": [
+        {
+          "url": "/helloworld.html",
+          "key": "eg-ultimate-connect-system-top-navigation-bar-1",
+          "location": "system.header/left",
+          "name": {
+              "value": "EG Ultimate Connect App 1"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          }
+        },
+        {
+          "url": "/helloworld.html",
+          "key": "eg-ultimate-connect-system-top-navigation-bar-2",
+          "location": "system.header/left",
+          "name": {
+              "value": "EG Ultimate Connect App 2"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          }
+        },
+        {
+          "url": "/helloworld.html",
+          "key": "eg-ultimate-connect-system-top-navigation-bar-3",
+          "location": "system.header/left",
+          "name": {
+              "value": "EG Ultimate Connect App 3"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+        }
+      }
+      ],
+      "webSections": [
+        {
+          "key": "eg-ultimate-connect-menu-section",
+          "location": "admin_plugins_menu",
+          "name": {
+              "value": "EG Ultimate Connect App"
+          }
+        }
+      ],
+        "webItems": [
+          {
+            "key": "eg-ultimate-connect-section-link-1",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "target": {
+              "type": "dialog",
+              "options": {
+                "height": "100px",
+                "width": "200px"
+              }
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-section-link-2",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "target": {
+              "type": "dialog",
+              "options": {
+                "height": "100px",
+                "width": "200px"
+              }
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-section-link-3",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "target": {
+              "type": "dialog",
+              "options": {
+                "height": "100px",
+                "width": "200px"
+              }
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-operations-operations-1",
+            "location": "operations-operations",
+            "weight": 10,
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-operations-operations-2",
+            "location": "operations-operations",
+            "weight": 10,
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-operations-operations-3",
+            "location": "operations-operations",
+            "weight": 10,
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-1",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-2",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-3",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.help/pages",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-general-page-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.help/pages",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-general-page-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.help/pages",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-general-page-3"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.space.sidebar/main-links",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-main-links-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.space.sidebar/main-links",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-main-links-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.space.sidebar/main-links",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-main-links-3"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "page.metadata.banner",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-metadata-banner-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "page.metadata.banner",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-metadata-banner-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "page.metadata.banner",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-metadata-banner-3"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.button",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-system-content-button-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.button",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-system-content-button-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.button",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion-small.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-system-content-button-3"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.action/primary",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-system-action-primary-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.action/primary",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-system-action-primary-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "location": "system.content.action/primary",
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            },
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-system-action-primary-3"
+          }
+        ],
+      "adminPages": [
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-admin-page-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-admin-page-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-admin-page-3"
+        }
+      ],
+      "configurePage": {
+        "url": "/helloworld.html",
+        "name": {
+          "value": "EG Ultimate Connect App"
+        },
+        "key": "eg-ultimate-connect-config-page"
+      },
+      "contentBylineItems": [
+        {
+          "url": "/helloworld.html",
+          "context": "addon",
+          "target": {
+            "type": "inlinedialog"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-byline-item-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "context": "addon",
+          "target": {
+            "type": "inlinedialog"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-byline-item-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "context": "addon",
+          "target": {
+            "type": "inlinedialog"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-byline-item-3"
+        }
+      ],
+      "blueprints": [
+        {
+          "template": {
+            "url": "/helloworld.html",
+            "blueprintContext": {
+              "url": "/helloworld.html"
+            }
+          },
+          "createResult": "edit",
+          "description": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "icon": {
+            "width": 48,
+            "height": 48,
+            "url": "/dandelion.png"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-remote-blueprint-1"
+        },
+        {
+          "template": {
+            "url": "/helloworld.html",
+            "blueprintContext": {
+              "url": "/helloworld.html"
+            }
+          },
+          "createResult": "edit",
+          "description": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "icon": {
+            "width": 48,
+            "height": 48,
+            "url": "/dandelion.png"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-remote-blueprint-2"
+        },
+        {
+          "template": {
+            "url": "/helloworld.html",
+            "blueprintContext": {
+              "url": "/helloworld.html"
+            }
+          },
+          "createResult": "edit",
+          "description": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "icon": {
+            "width": 48,
+            "height": 48,
+            "url": "/dandelion.png"
+          },
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-remote-blueprint-3"
+        }
+      ],
+      "dialogs": [
+        {
+          "url": "/helloworld.html",
+          "options": {
+            "size": "fullscreen",
+            "header": {
+              "value": "EG Ultimate Connect App"
+            }
+          },
+          "key": "eg-ultimate-connect-dialog-module-key"
+        }
+      ],
+      "spaceToolsTabs": [
+        {
+          "url": "/helloworld.html",
+          "location": "contenttools",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "contenttools",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "contenttools",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-3"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "lookandfeel",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-lf-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "lookandfeel",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-lf-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "lookandfeel",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-lf-3"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "integrations",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-i-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "integrations",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-i-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "integrations",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-i-3"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "permissions",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-p-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "permissions",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-p-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "permissions",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-p-3"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "overview",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-o-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "overview",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-o-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "overview",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-o-3"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "addons",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-a-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "addons",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-a-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "location": "addons",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-space-tools-tab-a-3"
+        }
+      ],
+      "profilePages": [
+        {
+          "url": "my-confluence-profile-page",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-confluence-profile-page-1"
+        },
+        {
+          "url": "my-confluence-profile-page",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-confluence-profile-page-2"
+        },
+        {
+          "url": "my-confluence-profile-page",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-confluence-profile-page-3"
+        }
+      ],
+      "confluenceThemes": [
+        {
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-theme-1"
+        },
+        {
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-theme-2"
+        },
+        {
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-theme-3"
+        }
+      ]
+  }
+}
