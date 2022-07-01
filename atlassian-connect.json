@@ -402,6 +402,11 @@
           "name": {
             "value": "EG Ultimate Connect App 1"
           },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
           "key": "eg-ultimate-connect-byline-item-1"
         },
         {
@@ -416,6 +421,11 @@
           "name": {
             "value": "EG Ultimate Connect App 2"
           },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
           "key": "eg-ultimate-connect-byline-item-2"
         },
         {
@@ -429,6 +439,11 @@
           },
           "name": {
             "value": "EG Ultimate Connect App 3"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
           },
           "key": "eg-ultimate-connect-byline-item-3"
         }
